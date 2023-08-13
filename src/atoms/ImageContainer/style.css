@@ -1,0 +1,13 @@
+
+.image_container{
+    width: 100%;
+    overflow: hidden;
+    margin: auto;
+
+}
+
+img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}

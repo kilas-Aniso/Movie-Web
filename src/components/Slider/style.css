@@ -1,0 +1,70 @@
+.movies-slider-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.movie-slide {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 60%;
+  border: 1px solid #ccc;
+  margin: 10px;
+  overflow: hidden;
+}
+
+.movie-slide .movie-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.movie-slide .movie-details {
+  padding: 10px;
+  font-size: 32px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+}
+
+.movie-slide p{
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: bolder;
+}
+.movie-slide .buttons-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 30px;
+  margin-top: 10px;
+}
+
+.movie-slide .buttons-container button {
+  padding: 8px 36px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+}
+
+.movie-slide .buttons-container button.add-favorite {
+  background-color: hwb(50 24% 3%);
+}
+
+.movie-slide .buttons-container button.watch-now {
+  background-color: white;
+  color: #ffe24c;
+}
